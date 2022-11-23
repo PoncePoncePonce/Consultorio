@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tarea", "Tarea\Tarea.csproj", "{730677C0-C10D-4473-9897-C36934555510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{5B579A57-CDF2-424C-AE74-1CED198101F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea.Business", "Tarea.Business\Tarea.Business.csproj", "{BE67F794-8C4C-4640-A4CB-3BF83467AC20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{2C597100-316A-434E-B85C-C9F46D0C213E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea.Infraestructura.InMemory", "Tarea.Infraestructura\Tarea.Infraestructura.InMemory.csproj", "{6B4790F2-22D4-460E-8593-B8D332A47733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea.Infraestructura.SQLServer", "Tarea.Infraestructura.SQLServer\Tarea.Infraestructura.SQLServer.csproj", "{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea.Infraestructura.Sqlite", "Tarea.Infraestructura.Sqlite\Tarea.Infraestructura.Sqlite.csproj", "{5A3131C1-15B9-4266-B2E8-D84F05191764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{E65EF021-4710-48C5-95AD-6595DDABD239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730677C0-C10D-4473-9897-C36934555510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730677C0-C10D-4473-9897-C36934555510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730677C0-C10D-4473-9897-C36934555510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730677C0-C10D-4473-9897-C36934555510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE67F794-8C4C-4640-A4CB-3BF83467AC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE67F794-8C4C-4640-A4CB-3BF83467AC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE67F794-8C4C-4640-A4CB-3BF83467AC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE67F794-8C4C-4640-A4CB-3BF83467AC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4790F2-22D4-460E-8593-B8D332A47733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4790F2-22D4-460E-8593-B8D332A47733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4790F2-22D4-460E-8593-B8D332A47733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4790F2-22D4-460E-8593-B8D332A47733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3131C1-15B9-4266-B2E8-D84F05191764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3131C1-15B9-4266-B2E8-D84F05191764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3131C1-15B9-4266-B2E8-D84F05191764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3131C1-15B9-4266-B2E8-D84F05191764}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{730677C0-C10D-4473-9897-C36934555510} = {E65EF021-4710-48C5-95AD-6595DDABD239}
+		{BE67F794-8C4C-4640-A4CB-3BF83467AC20} = {5B579A57-CDF2-424C-AE74-1CED198101F0}
+		{6B4790F2-22D4-460E-8593-B8D332A47733} = {2C597100-316A-434E-B85C-C9F46D0C213E}
+		{FEECE781-01A5-4CE6-AFED-C2F8955DF8F3} = {2C597100-316A-434E-B85C-C9F46D0C213E}
+		{5A3131C1-15B9-4266-B2E8-D84F05191764} = {2C597100-316A-434E-B85C-C9F46D0C213E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578E3E59-C97C-4141-98FA-A15F17BBD070}
+	EndGlobalSection
+EndGlobal
